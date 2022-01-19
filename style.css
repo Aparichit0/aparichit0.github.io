@@ -40,11 +40,12 @@ body{
     background-color: rgba(137, 43, 226, 0.5);
     flex-grow: 0.8;
     border-radius: 5em;
+    margin-top: 1.5em;
     
 }
 .navbar ul{
     display: flex;
     justify-content: flex-end;
-    gap: 2vw;
-    /* flex-grow: .5; */
+    gap: 3.5vw;
+    font-size: 1.5em;
 }
