@@ -49,3 +49,68 @@ body{
     gap: 3.5vw;
     font-size: 1.5em;
 }
+
+/* hero section */
+.hero{
+    text-align: center;
+    margin: 2.25em auto;
+    padding: 0.5em;
+}
+.hero h1{
+    padding: 0.5em 0;
+    font-size: 2.5em;
+}
+.hero p{
+    font-size: 1.25em;
+}
+
+/* Projects section */
+.projects{
+    text-align: center;
+    margin: 2em auto;
+}
+
+h2{
+    margin-bottom: 0.5em;
+    font-size: 1.75em;
+}
+.cards{
+    display: flex;
+    padding: 2em 1em;
+    gap: 1.75em;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em 0.5em;
+    border: 1px solid rgba(230, 230, 250, 0.212);
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.2));
+    min-width: 20ch;
+    border-radius: 0.5em;
+    transition: linear, 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    background-color: rgba(60, 0, 255, 0.2);
+    margin: 0 1em;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+/* footer */
+.footer{
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: auto 0 0 0;
+    padding: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.footer span{
+    font-size: 0.8em;
+}
