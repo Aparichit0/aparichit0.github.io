@@ -35,10 +35,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2em;
-    background-color: blueviolet;
+    padding-left: 0.5em;
+    padding-right: 2em;
+    background-color: rgba(137, 43, 226, 0.5);
     flex-grow: 0.8;
-    border-radius: 20px;
+    border-radius: 5em;
     
 }
 .navbar ul{
