@@ -20,9 +20,8 @@ a{
 body{
     display: flex;
     flex-direction: column;
-    margin: 1em auto;
     background: linear-gradient(45deg, rgb(0, 162, 255), rgb(177, 177, 253)) no-repeat;
-    max-height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-attachment: fixed;
 }
