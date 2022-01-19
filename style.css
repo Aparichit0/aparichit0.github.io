@@ -4,10 +4,12 @@
     /* outline: palegreen solid; */
     color: #fff;
 }
-#logo{
+img#logo{
     border-radius: 50%;
-    border: 0.2em solid rgba(170, 170, 170, 0.5);
-    width: 50px;
+    border: 0.2em solid rgba(255, 255, 255, 0.5);
+    width: 75px;
+    margin: 0.5em;
+    box-sizing: border-box;
 }
 
 a{
@@ -21,10 +23,10 @@ body{
     background-color: lavender;
    
 }
-.navcontainer{
+.navcontainer, #logo{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .navbar{
