@@ -45,13 +45,22 @@ body{
     flex-grow: 0.8;
     border-radius: 5em;
     margin-top: 1.5em;
-    
 }
 .navbar ul{
     display: flex;
-    justify-content: flex-end;
-    gap: 3.5vw;
-    font-size: 1.5em;
+    justify-content: center;
+    gap: 0.5em;
+    gap: clamp(0.5em, 0.5em + 3vw, 3em);
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    justify-self: center;
+    list-style: none;
+}
+.navbar ul li:hover{
+    transform: scale(1.15) translateY(-15%);
+    margin: 0 0.1em;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease;
 }
 
 /* hero section */
